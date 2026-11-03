@@ -5,6 +5,10 @@
   </picture>
 </p>
 
+<p align="center">
+  <a href="https://arxiv.org/abs/2611.01200"><img src="https://img.shields.io/badge/arXiv-2611.01200-b31b1b.svg" alt="arXiv"></a>
+</p>
+
 # GraCo
 
 GraCo is a toolkit of graph coarsening methods. It gathers 17 methods from the
@@ -23,9 +27,10 @@ the module docstring of each method lists where we depart from both.
 </p>
 <p align="center"><em>A random geometric graph of 500 nodes coarsened to 50 supernodes.</em></p>
 
-GraCo comes with a paper, *GraCo: A Unified Toolkit of Graph Coarsening
-Algorithms and Metrics* (link to come). It describes every method and
-metric, the choices of our implementations, and the runtimes below.
+GraCo comes with a paper, [*GraCo: A Unified Toolkit of Graph Coarsening
+Algorithms and Metrics*](https://arxiv.org/abs/2611.01200) (arXiv:2611.01200).
+It describes every method and metric, the choices of our implementations, and
+the runtimes below.
 
 ## Install
 
@@ -165,8 +170,19 @@ sources, kept under that license ([`licenses/Apache-2.0.txt`](licenses/Apache-2.
 
 ## Citation
 
-If you use GraCo, please cite the paper above. Its arXiv link and BibTeX entry
-will be added here once it is online.
+If you use GraCo, please cite the paper:
+
+```bibtex
+@misc{joly2026graco,
+  title={GraCo: A Unified Toolkit of Graph Coarsening Algorithms and Metrics},
+  author={Joly, Antonin},
+  year={2026},
+  eprint={2611.01200},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2611.01200}
+}
+```
 
 Questions and bug reports go to the
 [GitHub issues](https://github.com/Antonin-J/graco/issues).

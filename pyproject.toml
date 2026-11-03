@@ -37,6 +37,7 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://github.com/Antonin-J/graco"
+Paper = "https://arxiv.org/abs/2611.01200"
 Author = "https://antonin-j.github.io"
 
 [project.optional-dependencies]
